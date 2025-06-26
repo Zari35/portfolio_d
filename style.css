@@ -195,7 +195,8 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 18%; /* Shows the top half */
+  object-position: 50% 35%; /* Shows the top half */
+  min-width: 250px;
   display: block;
 }
 
