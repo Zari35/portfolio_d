@@ -204,7 +204,6 @@
 
         <!-- BOTTOM: DETAILS FULL WIDTH -->
         <div class="space-y-6 mt-6">
- 
             <div>
             <p class="font-semibold text-gray-800">📊 What I built</p>
             <p class="text-gray-700">
@@ -230,6 +229,77 @@
 
         </div>
         </div>
+
+<!-- Featured Project – Superset Commerce Dashboard -->
+<div class="flex flex-col gap-6 mb-24">
+
+    <!-- TOP: IMAGE LEFT + SUMMARY RIGHT -->
+    <div class="flex flex-col md:flex-row items-start gap-8">
+
+        <!-- IMAGE SLIDER LEFT -->
+        <div class="w-full md:w-1/2">
+            <div class="relative w-full overflow-hidden rounded-lg shadow-md">
+                <div id="carousel-4" class="flex transition-transform duration-500 ease-in-out">
+                    <img src="./assets/dashboards/commerce_1.png" alt="Revenue tab" class="w-full shrink-0 cursor-zoom-in" data-zoom />
+                    <img src="./assets/dashboards/commerce_2.png" alt="Overview tab" class="w-full shrink-0 cursor-zoom-in" data-zoom />
+                </div>
+                <button id="prevBtn-4" class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow border hover:bg-gray-100">&lt;</button>
+                <button id="nextBtn-4" class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow border hover:bg-gray-100">&gt;</button>
+            </div>
+        </div>
+
+        <!-- TITLE + BUSINESS CASE RIGHT -->
+        <div class="w-full md:w-1/2 space-y-4">
+            <h3 class="text-2xl font-bold text-gray-800">Commerce Performance Dashboard</h3>
+            <h4 class="text-gray-600">Superset + SQL + KPI Design</h4>
+
+            <div>
+                <p class="font-semibold text-gray-800">🧩 Business Case Summary</p>
+                <p class="text-gray-700">
+                    Commercial data was spread across multiple reports, making it difficult for managers to see the full picture. 
+                    My goal was to bring revenue, costs, margin, inventory, and losses into one interactive solution, 
+                    with consistent plan vs fact tracking, year-over-year comparison, and execution metrics. 
+                    The result is a clear and reliable view of performance that supports faster and more confident decisions.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM: DETAILS FULL WIDTH -->
+    <div class="space-y-6 mt-6">
+        <div>
+            <p class="font-semibold text-gray-800">📊 What I built</p>
+            <p class="text-gray-700">
+                I developed a multi-tab Superset dashboard covering Revenue, Purchasing Costs, Trade Margin, Markup, 
+                Inventory Turnover, Losses, Write-offs, and Bonuses. Each tab follows the same structure, with 
+                KPI cards showing current results, YoY difference, plan variance, and execution %.  
+                The Revenue module (shown in screenshots) also includes trend charts for plan execution and a drill-down 
+                table by format, region, store, supplier, and SKU hierarchy. I paid special attention to design, ensuring 
+                clean visuals, consistent color logic, and user-friendly layouts.
+            </p>
+        </div>
+
+        <div>
+            <p class="font-semibold text-gray-800">💡 Business Value</p>
+            <p class="text-gray-700">
+                The dashboard replaced fragmented Excel reporting with a single, real-time source of truth. 
+                Managers now quickly see deviations, explore performance across any dimension, and identify 
+                root causes in just a few clicks. Strong visual design made adoption easy and turned the dashboard 
+                into a daily decision-making tool across departments.
+            </p>
+        </div>
+
+        <ul class="mt-4 text-sm text-gray-600 list-disc list-inside">
+            <li>End-to-end solution including SQL modeling, KPI logic, and Superset build</li>
+            <li>Consistent KPI cards with plan vs fact, year-over-year, and execution metrics</li>
+            <li>Interactive trend analysis with drill-down to region, store, supplier, and SKU</li>
+            <li>Professional design focused on clarity, usability, and adoption</li>
+        </ul>
+
+        <p class="mt-4 text-sm text-gray-500 italic">Confidential values hidden. Screenshots show dashboard structure only.</p>
+    </div>
+</div>
+
 
     </section>
 
